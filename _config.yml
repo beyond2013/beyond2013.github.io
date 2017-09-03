@@ -25,7 +25,7 @@ github_username:  beyond2013
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-modernist
+theme: minima
 plugins:
   - jekyll-feed
 exclude:
