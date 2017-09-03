@@ -1,25 +1,30 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-09-02 14:35:46 +0700
-categories: jekyll update
+title:  "How I setup this blog"
+date:   2017-09-03 14:35:46 +0700
+categories: jekyll github-pages blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I already had quite a few things installed on my laptop, like ruby, jekyll, bundler. I had these things installed because I onced used jekyll to create a static website for [mcmi](http://www.mcmi.asia). It seems that I usually work on projectsand come back to them after very long time, and forget everything about how I gotthings done. So now I plan to record things I did on this blog for future reference. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
+So for this blog I started following the [jekyll quick start guide](https://jekyllrb.com/docs/quickstart/). 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+# Create a new jekyll site
+jekyll new myblog
+# swtiched to directory
+cd myblog
+#Build the site on the preview server
+bundle execute jekyll serve
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Some changes I had to make in the `_config.yml` include the following:
+1. under `site settings` change `baseurl` to `myblog` this is required for the live github repo to work properly 
+2. changing `gem` to `plugins` under the `build settings`
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+* created a github repo by the name myblog
+* add it as remote using the command
+* git remote add origin git@github.com:beyond2013/myblog.git
+* pushed local repo to remote
+* Under the settings of github repo move to section GitHub Pages
+* In Source choose master branch and click Save
+
+And thats it, [the blog](https://beyond2013.github.io/myblog/) is now live.
