@@ -25,7 +25,7 @@ github_username:  beyond2013
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 exclude:
