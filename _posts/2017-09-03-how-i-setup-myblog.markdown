@@ -17,7 +17,7 @@ bundle execute jekyll serve
 {% endhighlight %}
 
 Some changes I had to make in the `_config.yml` include the following:
-1. under `site settings` change `baseurl` to `myblog` this is required for the live github repo to work properly 
+1. under `site settings` change `baseurl` to `/myblog` this is required for the live github repo to work properly 
 2. changing `gem` to `plugins` under the `build settings`
 
 * created a github repo by the name `myblog`
