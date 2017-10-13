@@ -24,6 +24,7 @@ twitter_username: OddFebruary
 github_username:  beyond2013
 disqus:
   shortname: https-beyond2013-github-io-myblog
+
 # Build settings
 markdown: kramdown
 theme: minima
