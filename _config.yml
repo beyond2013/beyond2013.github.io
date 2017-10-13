@@ -23,7 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OddFebruary
 github_username:  beyond2013
 disqus:
-  shortname: CommandConfig
+  shortname: https-beyond2013-github-io-myblog
 # Build settings
 markdown: kramdown
 theme: minima
