@@ -16,10 +16,11 @@
 
 title: CommandConfig
 email: imran.shahjee@gmail.com 
+name: "Imran Ali"
 description:  # this means to ignore newlines until "baseurl:"
   I would like to record frequent problems and their solutions,  that I encounter configuring software (both system and application) on my own laptop.  
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://beyond2013.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OddFebruary
 github_username:  beyond2013
 disqus:
