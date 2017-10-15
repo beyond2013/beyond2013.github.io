@@ -13,7 +13,9 @@
       </div>
     </main>
     {% include footer.html %}
-		{% include disqus_comments.html %}
+		{% if page.comments %}
+		  {% include disqus_comments.html %}
+		{% endif %}
   </body>
 
 </html>
