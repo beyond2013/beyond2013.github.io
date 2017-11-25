@@ -11,10 +11,10 @@ Today a friend asked me to help him reset the password of one of his laptops run
 2. Booting Elite Notebook 6930p was a bit tricky as the BIOS options were spread across different pages.
 3. So after enabling UEFI in setup, I could finally boot.
 4. To find various drive letters/volume caption assigned to drives use following commands:
-{% highlight bat %} 
+``` dos 
 wmic logicaldisk get name
 wmic logicaldisk get volume
-{% endhighlight %}
+```
 5. Followed by these commands, remember to replace the appropriate drive letter in place of x, and say Yes in repsonse to overwrite confirmation
 {% highlight bat %} 
 copy x:\windows\system32\utilman.exe x:\ 
