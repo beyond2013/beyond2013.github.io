@@ -28,5 +28,5 @@ net user username newpassword
 8. close command prompt and login using new password
 9. to reverse the effect of step 5 boot again using bootable usb and type the following in recovery command prompt and confirm overwrite by Yes
 ``` dos
-copy x:\windows\utilman.exe x:\windows\system32\utilman.exe
+copy x:\utilman.exe x:\windows\system32\utilman.exe
 ```
