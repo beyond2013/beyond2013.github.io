@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "How to reset windows 7,8,10 local admin password"
+title:  "How to reset windows local admin password"
 comments: true
 categories: windows password-reset 
 ---
