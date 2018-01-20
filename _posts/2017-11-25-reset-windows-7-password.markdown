@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "How to reset windows 7 password"
+title:  "How to reset windows 7,8,10 local admin password"
 comments: true
-categories: windows7 password-reset 
+categories: windows password-reset 
 ---
 
 Today a friend asked me to help him reset the password of one of his laptops running windows 7. I run in to this situation quite often so I thought rather than searching the web everytime i write them for future use here. 
