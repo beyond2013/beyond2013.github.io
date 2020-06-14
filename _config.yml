@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CommandConfig
-email: imran.shahjee@gmail.com 
+email: imran.cs.uob@gmail.com 
 name: "Imran Ali"
 description:  # this means to ignore newlines until "baseurl:"
   I would like to record frequent problems and their solutions,  that I encounter configuring software (both system and application) on my own laptop.  
