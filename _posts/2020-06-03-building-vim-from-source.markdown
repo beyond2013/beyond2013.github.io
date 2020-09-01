@@ -34,11 +34,9 @@ python3-dev ruby-dev lua5.1 liblua5.1-dev libperl-dev
             --enable-cscope \
             --prefix=/usr/local
 ```
-6. To be able to easily uninstall vim in future:
+6. Make install
 ```
-sudo apt install checkinstall	
-cd ~/vim 
-sudo checkinstall
+sudo make install
 ```
 7. set vim as default editor 
 ```
