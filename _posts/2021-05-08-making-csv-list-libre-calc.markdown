@@ -8,7 +8,7 @@ categories: csv list Libre Calc TEXTJOIN EXACT IF RIGHT
 
 We were recording attendance of students on spreadsheets this way
 
-![Spreadsheet used for recording attendance of students]({{site.url}}/assets/images/blog.png "Spread Sheet used to record attendance")
+![Spreadsheet used for recording attendance of students](assets/images/blog.png "Spread Sheet used to record attendance")
 
 1. The R.No. column contained student's Roll Number like 2017-BS(CS)-E-01 
 2. The column for date contained either P or A showing whether the student was present or absent.
@@ -26,7 +26,7 @@ The CMS requires a comma separated list of roll numbers, and following is how I 
 	- and `if()` functions which returns the roll number if the value is "P" otherwise it returns nothing
 - The image below displays what I achieved 
 
-![Roll numbers of students]({{site.url}}/assets/images/step1.png "Roll Numbers of present students")
+![Roll numbers of students](assets/images/step1.png "Roll Numbers of present students")
 
 2. The second and last step is to join the roll numbers with commas in between, which is achieved using TEXTJOIN  
 
@@ -34,4 +34,4 @@ The CMS requires a comma separated list of roll numbers, and following is how I 
 
 - The first argument to `TEXTJOIN` is delimiter, second argument 1 means I want to skip blank cells and the last argument is the range of values to convert
 
-![Resulting csv list]({{site.url}}/assets/images/result.png "Resulting csv list")
+![Resulting csv list](assets/images/result.png "Resulting csv list")
