@@ -35,3 +35,5 @@ The CMS requires a comma separated list of roll numbers, and following is how I 
 - The first argument to `TEXTJOIN` is delimiter, second argument 1 means I want to skip blank cells and the last argument is the range of values to convert
 
 ![Resulting csv list]({{ site.baseurl }}/assets/images/result.png "Resulting csv list")
+
+- [Link to the attendance spreadsheet containing all working]({{ site.baseurl }}/assets/attendance.ods)
