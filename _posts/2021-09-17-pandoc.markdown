@@ -9,7 +9,12 @@ categories: pandoc markdown commandline terminal beamer
 I have lecture notes in markdown format. To create a beamer slide show using the notes I use the following command in terminal
 
 ```
-pandoc -t beamer Intro.md -o slides.pdf --slide-level 2
+pandoc -t beamer Intro.md -o slides.pdf --slide-level 2 -i -V theme=Warsaw
 ```
 
-This generates correct number of slides, a new slide is inserted at every heading level 2. Will append more information as i discover.
+- This generates correct number of slides, a new slide is inserted at every heading level 2. 
+- The **-i** argument generates a slide where each  item in a list is displayed incrementally
+- **-V theme=Warsaw** uses Warsaw theme for beamer
+
+
+Will append more information as i discover.
