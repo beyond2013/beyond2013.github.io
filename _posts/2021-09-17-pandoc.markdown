@@ -1,0 +1,15 @@
+---
+layout: default
+title:  "Compiling markdown using pandoc"
+date:  2021-9-17
+comments: true
+categories: pandoc markdown commandline terminal beamer
+---
+
+I have lecture notes in markdown format. To create a beamer slide show using the notes I use the following command in terminal
+
+```
+pandoc -t beamer Intro.md -o slides.pdf --slide-level 2
+```
+
+This generates correct number of slides, a new slide is inserted at every heading level 2. Will append more information as i discover.
