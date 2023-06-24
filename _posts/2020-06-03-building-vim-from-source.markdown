@@ -26,8 +26,10 @@ python3-dev ruby-dev lua5.1 liblua5.1-dev libperl-dev
 ./configure --with-features=huge \
          --enable-multibyte \
          --enable-rubyinterp=yes \
-         --enable-python3interp=yes \
-         --with-python3-config-dir=$(python3-config --configdir) \
+         --enable-python3interp=dynamic \
+         --with-python3-command=/usr/bin/python3.10 \
+         --with-python-config-dir=/usr/lib/python3.10/config-3.10-x86_64-linux-gnu \
+         --with-x \
          --enable-perlinterp=yes \
          --enable-luainterp=yes \
          --enable-gui=gtk3 \
